@@ -1,9 +1,9 @@
-IF "I love you Grandma!".upcase
+IF speak_to_grandma == "I love you Grandma!".upcase
 puts "I LOVE YOU TOO PUMPKIN!"
 end
 
-IF "Hi Nana, how are you?"
+IF speak_to_grandma == "Hi Nana, how are you?"
 puts "HUH?! SPEAK UP, SONNY!"
-elsif "Hi!"
+elsif speak_to_grandma "Hi!"
 puts "HUH?! SPEAK UP, SONNY!"
-elsif "
+elsif speak_to_grandma "
